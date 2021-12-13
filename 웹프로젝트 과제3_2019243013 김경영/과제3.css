@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #eeeeee;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    color: #666666;
+}
+
+.header {
+    width: 800px;
+    height: 40px;
+    background-color: #dddddd;
+}
+
+.logo {
+    font-size: 16px;
+    color: #3e2b23;
+    font-weight: bold;
+    padding: 10px 0 0 30px;
+    text-shadow: 3px 3px 5px #444444;
+    float: left;
+
+}
+
+.header_menu{
+    padding: 10px 10px 0 0;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+.left a:hover {
+    color: #ff0000; font-weight: bold;
+    font-size: 20px;
+}
+
+.left {
+    width: 150px; height: 600px;
+    background-color: #343333; color: #e2e2e2;
+    float: left;
+
+}
+
+.left h2 {
+    font-weight: normal; padding: 20px 0 0 30px;
+
+}
+
+.left ul {
+    font-size: 14px; padding: 10px 10px 5px;
+}
+
+.left li {
+    padding: 3px;
+}
+
+.left li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.left li a:visited {
+    color: #ffffff;
+}
+
+.left li a:hover {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.right {
+    width: 650px; height: 600px;
+    background-color: #252525;
+    float: left;
+}
+
+.right_top {
+    width: 572px; font-size: 18px;
+    color: #ffffff; font-weight: bold;
+    padding: 10px; margin: 24px 0 0 24px;
+    border: solid 5px #444444;
+}
+
+.right_view {
+    padding: 15px 0 0 24px;
+}
+.right_thumnail {
+    padding: 30px 0 0 70px;
+}
+
+.right_thumnail .navi_left {
+    margin: 20px 5px 0 40px; float: left;
+}
+
+.right_thumnail .thumnail_photo {
+    margin: 3px 0 0 0; float: left;
+}
+
+.right_thumnail .thumnail_photo li {
+    display: inline; margin-left: 10px;
+}
+
+.right_thumnail .navi_right {
+    margin: 20px 0px 0 20px; float: left;
+}
+
+.right_thumnail .thumnail_photo img {
+    border: solid 5px #3d3d3d;
+}
+
+.right_thumnail .thumnail_photo a:hover img {
+    border: solid 5px #ffffff;
+}

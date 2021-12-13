@@ -1,0 +1,36 @@
+.head {
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+}
+table {
+    background-color: beige;
+    margin-left: 5px;
+}
+
+.input2 {
+    width: 300px;
+}
+
+td.grade > input {
+    margin: 7px;
+}
+
+td.name {
+    width: 360px;
+}
+
+td.interested > input {
+    margin: 7px;
+}
+
+div {
+    background-color: bisque;
+    width: 1000px;
+    height: 660px;
+}
+
+h2 {
+    margin: 15px;
+    padding-top: 10px;
+}

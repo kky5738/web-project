@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div>
+            <h2>회원가입 양식</h2>
+            <table>
+                
+                <tr>
+                    <th class="head">이름</th>
+                    <td class="name"><input type="text" name="name" class="input2"></td>
+                </tr>
+                
+                <tr>
+                    <th class="head">아이디</th>
+                    <td><input class="input2" type="text" name="id" placeholder="영문 및 숫자"></td>
+                </tr>
+    
+                <tr>
+                    <th class="head">비밀번호</th>
+                    <td><input class="input2" type="password" name="password" placeholder="영문, 숫자, 특수문자 조합"></td>
+                    <th class="head">비밀번호 확인</th>
+                    <td><input class="input2" type="password"></td>
+                </tr>
+    
+                <tr>
+                    <th class="head">성별</th>
+                    <td>
+                        <input type="radio" name="gender">남
+                        <input type="radio" name="gender">여
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th class="head">전화번호</th>
+                    <td colspan="2">
+                        <select name="phoneNum">
+                            <option value="02">02</option>
+                            <option value="031">031</option>
+                            <option value="032">032</option>
+                            <option value="041">041</option>
+                            <option value="043">043</option>
+                        </select>
+                        <input type="text" name="phonum1"> - <input type="text" name="phonum2">
+                    </td>
+                    
+                    
+                </tr>
+    
+                <tr >
+                    <th class="head">이메일</th>
+                    <td colspan="2">
+                        <input type="text" name="email"> @
+                        <input type="text" name="domain" list="domainList">
+                        <datalist id="domainList">
+                            <option>naver.com</option>
+                            <option>daum.net</option>
+                            <option>hanmil.net</option>
+                            <option>gmail.com</option>
+                            <option>kakao.com</option>
+                            <option>yahoo.com</option>
+                        </datalist>
+                    </td>
+                    
+                </tr>
+    
+                <tr>
+                    <th class="head">학과</th>
+                    <td><input class="input2" type="text" name="devision"></td>
+                </tr>
+    
+                <tr >
+                    <th class="head">학년</th>
+                    <td class="grade" colspan="2"><input type="radio" name="grade">1학년
+                        <input type="radio" name="grade">2학년
+                        <input type="radio" name="grade">3학년
+                        <input type="radio" name="grade">4학년
+                        <input type="radio" name="grade">5학년
+                    </td>
+                </tr>
+    
+                <tr>
+                    <th class="head">관심분야</th>
+                    <td colspan="3" class="interested"><input type="checkbox" name="interested">동물
+                        <input type="checkbox" name="interested">영화
+                        <input type="checkbox" name="interested">애니메이션
+                        <input type="checkbox" name="interested">축구
+                        <input type="checkbox" name="interested">음악
+                        <input type="checkbox" name="interested">정치
+                        <input type="checkbox" name="interested">패션
+                        <input type="checkbox" name="interested">기타
+                    </td>
+                </tr>
+    
+                <tr id="introduction">
+                    <th class="head">자기소개</th>
+                    <td colspan="5">
+                        <textarea name="selfintroduction" placeholder="간단한 자기소개" rows="20" cols="111"></textarea>
+                    </td>
+                </tr>
+                <tr> 
+                    <td><button name="save">Save</button>
+                        <button name="cancel">Cancel</button></td>   
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </body>
+</html>
